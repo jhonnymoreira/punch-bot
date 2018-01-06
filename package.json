@@ -1,0 +1,25 @@
+{
+  "name": "punch-bot",
+  "version": "0.0.1",
+  "description": "PunchSub torrent scrapper.",
+  "bin": "cli.js",
+  "files": [
+    "punch-bot/",
+    "cli.js"
+  ],
+  "repository": "https://github.com/jhonnymoreira/punch-bot",
+  "author": "Jhonny Moreira <me.jhonnymoreira@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "meow": "^4.0.0",
+    "parse-torrent": "^5.8.3",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-plugin-jest": "^21.5.0",
+    "jest": "^22.0.4"
+  }
+}
